@@ -1,0 +1,24 @@
+.header-container // 360px
+  background-color: white
+  color: black
+  position: relative
+  max-height: 4.5rem // 72px
+  .header-layout
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 4.5vw
+    margin: 0 5vw
+    position: relative
+    align-content: center
+
+@media (min-width: 48rem) // 768px
+  .header-container
+    max-height: 6rem // 96px
+    .header-layout
+      grid-template-columns: repeat(8, 1fr)
+
+@media (min-width: 75rem) // 1200px
+  .header-container
+    max-height: 8rem // 128px
+    .header-layout
+      grid-template-columns: repeat(12, 1fr)
