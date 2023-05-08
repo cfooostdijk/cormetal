@@ -1,10 +1,11 @@
-import Header from '../../Containers/Header/Header'
+import { Header, Footer } from '../../Containers'
 
 const Initial = () => {
   return (
     <>
-    <Header />
-      <h1>Initial</h1>
+      <Header />
+        <h1>Initial</h1>
+      <Footer />
     </>
   )
 }

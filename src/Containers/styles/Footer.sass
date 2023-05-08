@@ -1,0 +1,21 @@
+.footer-container // 360px
+  background-color: white
+  color: black
+  position: relative
+  .footer-layout
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 4.5vw
+    margin: 0 5vw
+    position: relative
+    align-content: center
+
+@media (min-width: 48rem) // 768px
+  .footer-container
+    .footer-layout
+      grid-template-columns: repeat(8, 1fr)
+
+@media (min-width: 75rem) // 1200px
+  .footer-container
+    .footer-layout
+      grid-template-columns: repeat(12, 1fr)

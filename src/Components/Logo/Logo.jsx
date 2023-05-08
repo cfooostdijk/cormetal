@@ -1,6 +1,6 @@
-import logoSmall from './LogoSmall.avif';
-import logoMedium from './LogoMedium.avif';
-import logoLarge from './LogoLarge.avif';
+import logoSmall from '../../Assets/LogoSmall.avif'
+import logoMedium from '../../Assets/LogoMedium.avif'
+import logoLarge from '../../Assets/LogoLarge.avif'
 import '../styles/Logo.sass'
 
 const Logo = () => {
