@@ -1,6 +1,6 @@
 .menu-container
   grid-column: 1 / 5
-  grid-row: 3
+  grid-row: 2
   border-bottom: groove
   padding-bottom: 1rem
   .menu-layout
@@ -14,15 +14,13 @@
       line-height: 1rem
       margin: 0
       cursor: pointer
-      padding-bottom: 1rem
-      padding-top: 1rem
-    .menu-paragraph
+    .menu-subtitle
       display: flex !important
-      font-size: .875rem
       font-weight: 400
       line-height: 1rem
       color: #999
       margin: 0
+      padding-top: .5rem
       padding-bottom: .5rem
       padding-left: .5rem
 
@@ -31,11 +29,11 @@
     grid-column: 3 / 9
     grid-row: 1
     border-bottom: none
+    padding-top: 1rem
     .menu-layout
       display: flex
       flex-direction: row
-      align-items: flex-start
-      justify-content: space-evenly
+      justify-content: space-between
 
 @media (min-width: 75rem)
   .menu-container

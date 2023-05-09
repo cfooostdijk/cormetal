@@ -1,19 +1,27 @@
 export const categoriesData = {
   categories: [
     {
-      name: "Inicio",
+      name: "Quienes somos?",
+      subname1: 'Nostros',
+      subname2: 'Nuestro origen',
       route: "HeroTop"
     },
     {
-      name: "Nosotros",
+      name: "Que hacemos?",
+      subname1: 'Servicios',
+      subname2: 'Productos',
       route: "Us"
     },
     {
-      name: "Clientes",
+      name: "Clientes?",
+      subname1: 'Campo',
+      subname2: 'Puerto',
       route: "Clients"
     },
     {
-      name: "Nuestros trabajos",
+      name: "Galeria",
+      subname1: 'Campo',
+      subname2: 'Puerto',
       route: "Works"
     },
     {

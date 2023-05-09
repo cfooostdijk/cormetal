@@ -7,8 +7,8 @@ const Footer = () => {
     <div className='footer-container'>
       <div className='footer-layout' >
         <Logo />
-        <Contact />
         <Menu />
+        <Contact />
         <Socials />
         <Copyright />
       </div>
