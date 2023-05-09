@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import { categoriesData } from '../../Containers/Header/HeaderData';
+import { categoriesData } from '../../Assets/Data';
 import '../styles/Menu.sass';
 
 const Menu = () => {

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { categoriesData } from '../../Containers/Header/HeaderData'
+import { categoriesData } from '../../Assets/Data'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { Link } from 'react-scroll'
 import '../styles/NavBar.sass'
