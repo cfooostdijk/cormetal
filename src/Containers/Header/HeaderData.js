@@ -4,13 +4,13 @@ export const categoriesData = {
       name: "Quienes somos?",
       subname1: 'Nostros',
       subname2: 'Nuestro origen',
-      route: "HeroTop"
+      route: "Us"
     },
     {
       name: "Que hacemos?",
       subname1: 'Servicios',
       subname2: 'Productos',
-      route: "Us"
+      route: "Services"
     },
     {
       name: "Clientes?",
@@ -22,7 +22,7 @@ export const categoriesData = {
       name: "Galeria",
       subname1: 'Campo',
       subname2: 'Puerto',
-      route: "Works"
+      route: "Gallery"
     },
     {
       name: "Contactenos",

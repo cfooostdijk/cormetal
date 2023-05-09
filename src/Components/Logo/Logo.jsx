@@ -2,6 +2,7 @@ import logoSmall from '../../Assets/LogoSmall.avif'
 import logoMedium from '../../Assets/LogoMedium.avif'
 import logoLarge from '../../Assets/LogoLarge.avif'
 import '../styles/Logo.sass'
+import { Link } from 'react-scroll'
 
 const Logo = () => {
   return (

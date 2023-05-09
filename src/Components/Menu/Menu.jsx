@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <div className='menu-container'>
       <div className='menu-layout'>
-        {categoriesData.categories.map((category, index) => (
+        {categoriesData.categories.slice(0, -1).map((category, index) => (
           <div>
             <Link key={index} activeClass='active' to={category.route} smooth={true} offset={-100} duration={500} className='menu-title'>
               {category.name}
