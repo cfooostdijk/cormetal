@@ -5,9 +5,9 @@ const HeroTitle = () => {
   return (
     <>
       <div className="hero-title">
-        <h2>Somos Fabricantes</h2>
-        <h2>Somos Diseñadores</h2>
-        <h2>Somos CORMETAL </h2>
+        <h1>Somos fabricantes</h1>
+        <h1> somos diseñadores</h1>
+        <h1> somos Cormetal</h1>
       </div>
     </>
   )

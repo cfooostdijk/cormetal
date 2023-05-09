@@ -1,2 +1,18 @@
 .us-container
-  height: 800px
+  text-align: justify
+  background-color: #010a1a
+  .us-layout
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 4.5vw
+    margin: 0 5vw
+
+@media (min-width: 48rem) // 768px
+  .us-container
+    .us-layout
+      grid-template-columns: repeat(8, 1fr)
+
+@media (min-width: 75rem) // 1200px
+  .us-container
+    .us-layout
+      grid-template-columns: repeat(12, 1fr)
