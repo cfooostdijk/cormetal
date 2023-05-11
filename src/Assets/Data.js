@@ -23,31 +23,22 @@ import puertoqqn from './puertoqqn.png'
 import renova from './renova.png'
 import terminal from './terminal.png'
 
-
 export const categoriesData = {
   categories: [
     {
       name: "Quienes somos?",
-      subname1: 'Nostros',
-      subname2: 'Nuestro origen',
       route: "Us"
     },
     {
       name: "Que hacemos?",
-      subname1: 'Servicios',
-      subname2: 'Productos',
       route: "Services"
     },
     {
-      name: "Clientes?",
-      subname1: 'Campo',
-      subname2: 'Puerto',
+      name: "Quienes nos acompañan?",
       route: "Clients"
     },
     {
       name: "Galeria",
-      subname1: 'Campo',
-      subname2: 'Puerto',
       route: "Gallery"
     },
     {
@@ -60,38 +51,32 @@ export const categoriesData = {
 export const servicesData = {
   services: [
     {
-      name: "Soldaduras",
-      paragraph: 'Soldaduras',
+      title: "Lorem",
       image: welding,
       icon: iconwelding
     },
     {
-      name: "Corte",
-      paragraph: 'Corte',
+      title: "Lorem",
       image: cutting,
       icon: iconcutting
     },
     {
-      name: "Plegado",
-      paragraph: 'Plegado',
+      title: "Lorem",
       image: bending,
       icon: iconbending
     },
     {
-      name: "Punzonado",
-      paragraph: 'Punzonado',
+      title: "Lorem",
       image: punching,
       icon: iconpunching
     },
     {
-      name: "Ingenieria",
-      paragraph: 'Ingenieria',
+      title: "Lorem",
       image: engineer,
       icon: iconengineer
     },
     {
-      name: "Plasma",
-      paragraph: 'Plasma',
+      title: "Lorem",
       image: plasma,
       icon: iconplasma
     }
@@ -129,16 +114,25 @@ export const herosData = [
   {
     name: "Hero1",
     image: hero1,
-    title: "Somos Fabricantes, somos Diseñadores, somos Cormetal"
+    title: "Lorem ipsum dolor sit amet consectetur."
   },
   {
     name: "Hero2",
     image: hero2,
-    title: "Para el Agro, para el Puerto, para la Industria"
+    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto."
   },
   {
     name: "Hero3",
     image: hero3,
-    title: "Por las innovaciones que tanto nos apasionan"
+    title: "Lorem ipsum dolor sit, amet consectetur adipisicing."
+  }
+]
+
+export const usData = [
+  {
+    title: "Lorem Ipsum...",
+    paragraph1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque enim sequi?",
+    paragraph2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum numquam nulla, non, adipisci sint perspiciatis, optio est aut voluptatibus sunt fuga? Cupiditate, cumque repudiandae?",
+    paragraph3: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nobis quas minus inventore, in ipsam."
   }
 ]

@@ -17,13 +17,18 @@ const Hero = () => {
 
   return (
     <div className='hero-container' id='Hero'>
-      <Slider {...settings}>
-        {herosData.map(hero => (
-          <div className='hero-layout' key={hero.name}>
-            <img className='hero-image' src={hero.image} alt={hero.name} />
-          </div>
-        ))}
-      </Slider>
+      <div className='hero-layout'>
+        <Slider {...settings}>
+          {herosData.map(hero => (
+            <>
+              <img className='hero-image' src={hero.image} alt={hero.name} />
+              <div className='hero-text'>
+                <h1>{hero.title}</h1>
+              </div>
+              </>
+          ))}
+        </Slider>
+      </div>
     </div>
   )
 }

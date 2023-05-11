@@ -1,4 +1,4 @@
-import { Copyright, Contact, Menu, Logo, Socials } from '../../Components'
+import { Copyright, Contact, Logo, Socials, Map } from '../../Components'
 import '../styles/Footer.sass'
 
 const Footer = () => {
@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer-container'>
       <div className='footer-layout' >
         <Logo />
-        <Menu />
+        <Map />
         <Contact />
         <Socials />
         <Copyright />

@@ -1,18 +1,13 @@
 .us-container
   text-align: justify
   background-color: #010a1a
+  color: #f7f7f7
   .us-layout
-    display: grid
-    grid-template-columns: repeat(4, 1fr)
-    grid-gap: 4.5vw
+    display: flex
+    flex-direction: column
     margin: 0 5vw
-
-@media (min-width: 48rem) // 768px
-  .us-container
-    .us-layout
-      grid-template-columns: repeat(8, 1fr)
-
-@media (min-width: 75rem) // 1200px
-  .us-container
-    .us-layout
-      grid-template-columns: repeat(12, 1fr)
+    text-align: center
+    p
+      margin-bottom: 1rem
+      color: #80858d
+      text-align: justify

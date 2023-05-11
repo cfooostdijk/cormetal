@@ -3,7 +3,7 @@ import { categoriesData } from '../../Assets/Data'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { Link } from 'react-scroll'
 import '../styles/NavBar.sass'
-import MobileMenu from '../MobileMenu/MobileMenu'
+import Menu from '../Menu/Menu'
 
 
 const NavBar = ({ headerHeight }) => {
@@ -20,7 +20,7 @@ const NavBar = ({ headerHeight }) => {
   return (
     <div className='nabvar-container' >
       {isMobileMenuOpen && (
-        <MobileMenu categories={categoriesData.categories} headerHeight={headerHeight} handleLinkClick={handleLinkClick} />
+        <Menu categories={categoriesData.categories} headerHeight={headerHeight} handleLinkClick={handleLinkClick} />
       )}
 
       {isMobileMenuOpen ? ( <HiX className='mobile-menu-button' onClick={handleOnClick} /> ) :

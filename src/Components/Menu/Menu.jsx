@@ -1,29 +1,23 @@
-import { Link } from 'react-scroll';
-import { categoriesData } from '../../Assets/Data';
-import '../styles/Menu.sass';
+import { Link } from 'react-scroll'
+import '../styles/MobileMenu.sass'
 
-const Menu = () => {
+const MobileMenu = ({ categories, headerHeight, handleLinkClick }) => {
   return (
-    <div className='menu-container'>
-      <div className='menu-layout'>
-        {categoriesData.categories.slice(0, -1).map((category, index) => (
-          <div>
-            <Link key={index} activeClass='active' to={category.route} smooth={true} offset={-100} duration={500} className='menu-title'>
-              {category.name}
-            </Link>
-            <div>
-              <Link key={index} activeClass='active' to={category.route} smooth={true} offset={-100} duration={500} className='menu-subtitle'>
-                {category.subname1}
-              </Link>
-              <Link key={index} activeClass='active' to={category.route} smooth={true} offset={-100} duration={500} className='menu-subtitle'>
-                {category.subname2}
-              </Link>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
+    <nav className='mobile-menu' style={{ top: `calc(${headerHeight}px - 1px)` }}>
+      {categories.map((category, index) => (
+        <Link key={index}
+              activeClass='active'
+              to={category.route}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className='list'
+              onClick={handleLinkClick} >
+          {category.name}
+        </Link>
+      ))}
+    </nav>
+  )
+}
 
-export default Menu;
+export default MobileMenu
