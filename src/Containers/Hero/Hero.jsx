@@ -1,7 +1,7 @@
-import Slider from 'react-slick'
 import { herosData } from '../../Assets/Data'
-import 'slick-carousel/slick/slick.css'; // Importa el archivo CSS de react-slick
-import 'slick-carousel/slick/slick-theme.css'; // Importa el archivo CSS de tema de react-slick
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import '../styles/Hero.sass'
 
 const Hero = () => {

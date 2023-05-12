@@ -3,7 +3,7 @@ import '../styles/Menu.sass'
 
 const Menu = ({ categories, headerHeight, handleLinkClick }) => {
   return (
-    <nav className='menu' >
+    <nav className='menu'>
       {categories.map((category, index) => (
         <Link key={index}
               activeClass='active'
@@ -12,7 +12,7 @@ const Menu = ({ categories, headerHeight, handleLinkClick }) => {
               offset={headerHeight * -1}
               duration={500}
               className='list'
-              onClick={handleLinkClick} >
+              onClick={handleLinkClick}>
           {category.name}
         </Link>
       ))}

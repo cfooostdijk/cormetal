@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
 import { Logo, NavBar } from '../../Components'
+import { useEffect, useState } from 'react'
 import '../styles/Header.sass'
 
 const Header = () => {

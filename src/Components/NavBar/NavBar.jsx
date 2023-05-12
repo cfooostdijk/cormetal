@@ -1,9 +1,9 @@
-import { useState } from 'react'
 import { categoriesData } from '../../Assets/Data'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { Link } from 'react-scroll'
-import '../styles/NavBar.sass'
+import { useState } from 'react'
 import Menu from '../Menu/Menu'
+import '../styles/NavBar.sass'
 
 
 const NavBar = ({ headerHeight }) => {
@@ -18,7 +18,7 @@ const NavBar = ({ headerHeight }) => {
   }
 
   return (
-    <div className='nabvar-container' >
+    <div className='nabvar-container'>
       {isMobileMenuOpen && (
         <Menu categories={categoriesData.categories} headerHeight={headerHeight} handleLinkClick={handleLinkClick} />
       )}
@@ -34,7 +34,7 @@ const NavBar = ({ headerHeight }) => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className='list' >
+                className='list'>
             {category.name}
           </Link>
         ))}

@@ -1,6 +1,5 @@
 import { clientsData } from '../../Assets/Data'
 import ClientCard from '../Cards/ClientCard'
-import '../styles/ClientList.sass'
 import Slider from 'react-slick'
 
 const ClientList = () => {

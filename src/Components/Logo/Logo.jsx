@@ -1,11 +1,11 @@
-import logoSmall from '../../Assets/LogoSmall.avif'
-import logoMedium from '../../Assets/LogoMedium.avif'
 import logoLarge from '../../Assets/LogoLarge.avif'
+import logoMedium from '../../Assets/LogoMedium.avif'
+import logoSmall from '../../Assets/LogoSmall.avif'
 import '../styles/Logo.sass'
 
 const Logo = () => {
   return (
-    <div className='logo-container' >
+    <div className='logo-container'>
       <img
         className='logo-image'
         src={logoSmall}
