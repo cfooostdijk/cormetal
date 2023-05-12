@@ -1,5 +1,5 @@
 import { servicesData } from '../../Assets/Data'
-import ServiceCard from '../../Components/Cards/ServiceCard'
+import { ServiceCard } from '../../Components'
 import '../styles/Services.sass'
 
 const Services = () => {
