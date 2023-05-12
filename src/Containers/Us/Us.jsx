@@ -3,15 +3,15 @@ import '../styles/Us.sass'
 
 const Us = () => {
   return (
-    <div className='us-container' id='Us'>
-      <div className='us-layout'>
-        {usData.map(us => (
-          <>
-            <h1>{us.title}</h1>
-            <p>{us.paragraph1}</p>
-            <p>{us.paragraph2}</p>
-            <p>{us.paragraph3}</p>
-          </>
+    <div className="us-container" id="Us">
+      <div className="us-layout" >
+        {usData.map((data) => (
+          <section key={data.title}>
+            <h1>{data.title}</h1>
+            {data.paragraphs.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </section>
         ))}
       </div>
     </div>

@@ -1,7 +1,7 @@
 .header-container // 360px
   background-color: #f7f7f7
   color: #010a1a
-  max-height: 4.5rem // 72px
+  height: 10vh
   position: sticky
   top: 0
   z-index: 1
@@ -10,16 +10,3 @@
     grid-template-columns: repeat(4, 1fr)
     grid-gap: 4.5vw
     margin: 0 5vw
-    align-content: center
-
-@media (min-width: 48rem) // 768px
-  .header-container
-    max-height: 6rem // 96px
-    .header-layout
-      grid-template-columns: repeat(8, 1fr)
-
-@media (min-width: 75rem) // 1200px
-  .header-container
-    max-height: 8rem // 128px
-    .header-layout
-      grid-template-columns: repeat(12, 1fr)

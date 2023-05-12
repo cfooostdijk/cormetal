@@ -1,5 +1,7 @@
 import Slider from 'react-slick'
 import { herosData } from '../../Assets/Data'
+import 'slick-carousel/slick/slick.css'; // Importa el archivo CSS de react-slick
+import 'slick-carousel/slick/slick-theme.css'; // Importa el archivo CSS de tema de react-slick
 import '../styles/Hero.sass'
 
 const Hero = () => {
@@ -20,12 +22,12 @@ const Hero = () => {
       <div className='hero-layout'>
         <Slider {...settings}>
           {herosData.map(hero => (
-            <>
+            <div className="hero-slide">
               <img className='hero-image' src={hero.image} alt={hero.name} />
               <div className='hero-text'>
                 <h1>{hero.title}</h1>
               </div>
-              </>
+            </div>
           ))}
         </Slider>
       </div>

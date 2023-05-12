@@ -17,8 +17,8 @@ const Header = () => {
   }, [headerHeight])
 
   return (
-    <div className='header-container' id="top" >
-      <div className='header-layout' >
+    <div className='header-container'>
+      <div className='header-layout'>
         <Logo />
         <NavBar headerHeight={headerHeight} />
       </div>

@@ -131,8 +131,20 @@ export const herosData = [
 export const usData = [
   {
     title: "Lorem Ipsum...",
-    paragraph1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque enim sequi?",
-    paragraph2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum numquam nulla, non, adipisci sint perspiciatis, optio est aut voluptatibus sunt fuga? Cupiditate, cumque repudiandae?",
-    paragraph3: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nobis quas minus inventore, in ipsam."
-  }
-]
+    paragraphs: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque enim sequi?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum numquam nulla, non, adipisci sint perspiciatis, optio est aut voluptatibus sunt fuga? Cupiditate, cumque repudiandae?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nobis quas minus inventore, in ipsam.",
+    ],
+  },
+  {
+    title: "Lorem Ipsum...",
+    paragraphs: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque enim sequi?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum numquam nulla, non, adipisci sint perspiciatis, optio est aut voluptatibus sunt fuga? Cupiditate, cumque repudiandae?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nobis quas minus inventore, in ipsam.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum numquam nulla, non, adipisci sint perspiciatis, optio est aut voluptatibus sunt fuga? Cupiditate, cumque repudiandae?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nobis quas minus inventore, in ipsam.",
+    ],
+  },
+];

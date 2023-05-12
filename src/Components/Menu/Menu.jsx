@@ -1,15 +1,15 @@
 import { Link } from 'react-scroll'
-import '../styles/MobileMenu.sass'
+import '../styles/Menu.sass'
 
-const MobileMenu = ({ categories, headerHeight, handleLinkClick }) => {
+const Menu = ({ categories, headerHeight, handleLinkClick }) => {
   return (
-    <nav className='mobile-menu' style={{ top: `calc(${headerHeight}px - 1px)` }}>
+    <nav className='menu' >
       {categories.map((category, index) => (
         <Link key={index}
               activeClass='active'
               to={category.route}
               smooth={true}
-              offset={-100}
+              offset={headerHeight * -1}
               duration={500}
               className='list'
               onClick={handleLinkClick} >
@@ -20,4 +20,4 @@ const MobileMenu = ({ categories, headerHeight, handleLinkClick }) => {
   )
 }
 
-export default MobileMenu
+export default Menu

@@ -1,17 +1,18 @@
 .contact-container
   grid-column: 1 / 5
   grid-row: 3
-  border-bottom: groove
-  padding-bottom: 1rem
+  height: 24vh
   .contact-layout
-    display: flex !important
+    display: flex
     flex-direction: column
+    border-bottom: ridge
+    height: 100%
+    justify-content: space-evenly
     .contact-title
       font-size: 1rem
       font-weight: 400
       line-height: 1rem
       text-align: left
-      padding-bottom: 1rem
     .contact-paragraph
       display: flex !important
       font-size: .875rem
@@ -19,10 +20,4 @@
       line-height: 1rem
       color: #999
       margin: 0
-      padding-bottom: .5rem
       padding-left: .5rem
-
-@media (min-width: 48rem)
-  .contact-container
-    border-bottom: none
-    grid-row: 2
