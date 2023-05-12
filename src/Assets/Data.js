@@ -83,6 +83,17 @@ export const servicesData = {
   ]
 }
 
+export const clientsData2 = [
+  {
+    title: "Lorem Ipsum...",
+    paragraphs: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque enim sequi?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum numquam nulla, non, adipisci sint perspiciatis, optio est aut voluptatibus sunt fuga? Cupiditate, cumque repudiandae?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nobis quas minus inventore, in ipsam.",
+    ]
+  }
+]
+
 export const clientsData = [
   {
     name: "Cargill",
@@ -148,3 +159,19 @@ export const usData = [
     ],
   },
 ];
+
+export const galleryData = [
+  {
+    name: "Gallery1",
+    image: hero1
+  },
+  {
+    name: "Gallery2",
+    image: hero2
+  },
+  {
+    name: "Gallery3",
+    image: hero3,
+
+  }
+]
