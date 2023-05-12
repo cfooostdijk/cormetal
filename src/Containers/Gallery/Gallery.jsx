@@ -17,8 +17,6 @@ const Gallery = () => {
     })
   }
 
-  const firstImage = galleryData.length > 0 ? galleryData[0].image : null;
-
   const settings = {
     dots: false,
     arrows: false,
