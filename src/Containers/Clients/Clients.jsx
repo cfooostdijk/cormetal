@@ -1,5 +1,6 @@
 import { clientsData } from '../../Assets/Data'
 import { clientsData2 } from '../../Assets/Data'
+import { clientsData3 } from '../../Assets/Data'
 import { ClientCard } from '../../Components'
 import Slider from 'react-slick'
 import '../styles/Clients.sass'
@@ -8,7 +9,7 @@ const Clients = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -19,7 +20,7 @@ const Clients = () => {
   const settings2 = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -46,7 +47,7 @@ const Clients = () => {
           ))}
         </div>
         <Slider {...settings2}>
-          {clientsData.map((client, index) => (
+          {clientsData3.map((client, index) => (
             <ClientCard key={index} client={client} />
           ))}
         </Slider>

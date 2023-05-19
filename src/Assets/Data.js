@@ -1,27 +1,40 @@
-import hero1 from './hero1.jpg'
-import hero2 from './hero2.png'
-import hero3 from './hero3.png'
+import hero1 from './heros/hero1.avif'
+import hero2 from './heros/hero2.avif'
+import hero3 from './heros/hero3.avif'
 
-import welding from './welding.png'
-import cutting from './cutting.png'
-import bending from './bending.png'
-import punching from './punching.png'
-import engineer from './engineer.png'
-import plasma from './plasma.png'
+import welding from './services/welding.avif'
+import cutting from './services/cutting.avif'
+import bending from './services/bending.avif'
+import punching from './services/punching.avif'
+import engineer from './services/engineer.avif'
+import plasma from './services/plasma.avif'
 
-import iconwelding from './welding.svg'
-import iconcutting from './cutting.svg'
-import iconbending from './bending.svg'
-import iconpunching from './punching.svg'
-import iconengineer from './engineer.svg'
-import iconplasma from './plasma.svg'
+import iconwelding from './icons/welding.svg'
+import iconcutting from './icons/cutting.svg'
+import iconbending from './icons/bending.svg'
+import iconpunching from './icons/punching.svg'
+import iconengineer from './icons/engineer.svg'
+import iconplasma from './icons/plasma.svg'
 
-import cargill from './cargill.png'
-import moreno from './moreno.png'
-import sitiocero from './sitiocero.png'
-import puertoqqn from './puertoqqn.png'
-import renova from './renova.png'
-import terminal from './terminal.png'
+import gentos from './clients/gentos.png'
+import viterra from './clients/viterra.png'
+import iriberri from './clients/iriberri.png'
+import marmetto from './clients/marmetto.png'
+import dln from './clients/dln.png'
+import bayacasal from './clients/bayacasal.png'
+import agrogenerales from './clients/agrogenerales.png'
+
+import alea from './clients/alea.png'
+import sitio0 from './clients/sitio0.png'
+import aca from './clients/aca.png'
+import riquito from './clients/riquito.png'
+import lagloriosa from './clients/lagloriosa.png'
+import lasegunda from './clients/lasegunda.png'
+import renova from './clients/renova.jpg'
+import donosvasa from './clients/donosvasa.png'
+
+
+
 
 export const categoriesData = {
   categories: [
@@ -96,28 +109,67 @@ export const clientsData2 = [
 
 export const clientsData = [
   {
-    name: "Cargill",
-    image: cargill
+    name: "Gentos",
+    image: gentos
   },
   {
-    name: "SitioCero",
-    image: sitiocero
+    name: "Viterra",
+    image: viterra
   },
   {
-    name: "Puerto",
-    image: puertoqqn
+    name: "Iriberri",
+    image: iriberri
+  },
+  {
+    name: "Marmetto",
+    image: marmetto
+  },
+  {
+    name: "DLN",
+    image: dln
+  },
+  {
+    name: "ACA",
+    image: aca
+  },
+  {
+    name: "Agrogenerales",
+    image: agrogenerales
+  }
+]
+
+export const clientsData3 = [
+  {
+    name: "Alea",
+    image: alea
+  },
+  {
+    name: "Sitio0",
+    image: sitio0
+  },
+  {
+    name: "BayaCasal",
+    image: bayacasal
+  },
+  {
+    name: "Riquito",
+    image: riquito
+  },
+  {
+    name: "LaGloriosa",
+    image: lagloriosa
+  },
+  {
+    name: "CoopLaSegunda",
+    image: lasegunda
   },
   {
     name: "Renova",
     image: renova
   },
   {
-    name: "Moreno",
-    image: moreno
-  },
-  {
-    name: "Terminal",
-    image: terminal
+    name: "DonOsvaldo",
+    image: donosvasa
   }
 ]
 

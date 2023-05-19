@@ -1,5 +1,15 @@
 .client-card
+  display: flex
+  align-items: center
+  justify-content: center
   background-repeat: no-repeat
   background-size: contain
   background-position: center
   height: 30vh
+  width: 90%
+
+  .client-image
+    width: 100% /* Añadido para ocupar el 100% del ancho del contenedor */
+    height: 100% /* Ajusta la altura de la imagen de manera proporcional */
+    max-height: 100% /* Asegura que la imagen no se desborde verticalmente */
+    object-fit: contain
