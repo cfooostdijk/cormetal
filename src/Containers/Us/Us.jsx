@@ -7,9 +7,9 @@ const Us = () => {
       <div className="us-layout">
         {usData.map((data) => (
           <section key={data.title}>
-            <h1>{data.title}</h1>
+            <h1 className='us-text'>{data.title}</h1>
             {data.paragraphs.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
+              <p className='us-paragraph' key={index}>{paragraph}</p>
             ))}
           </section>
         ))}

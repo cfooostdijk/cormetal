@@ -1,12 +1,30 @@
 .clients-container
-  background-color: #010a1a
   height: 90vh
-  .client-layout
-    display: flex
-  .clients-paragraph
-    height: 30vh
-    color: white
-    text-align: center
-    p
-      color: #80858d
-      text-align: justify
+  .clients-layout
+    .clients-text
+      height: 30vh
+      margin: 0 5vw
+      text-align: center
+      .clients-title
+        color: #f7f7f7
+      .clients-paragraph
+        color: #80858d
+        text-align: justify
+
+@media (min-width: 47rem)
+  .clients-container
+    .clients-layout
+      .clients-text
+        .clients-title
+          font-size: 2.5rem
+        .clients-paragraph
+          font-size: 1.25rem
+
+@media (min-width: 62rem)
+  .clients-container
+    .clients-layout
+      .clients-text
+        .clients-title
+          font-size: 2.75rem
+        .clients-paragraph
+          font-size: 1.5rem

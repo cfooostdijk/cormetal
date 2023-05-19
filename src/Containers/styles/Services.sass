@@ -1,8 +1,21 @@
 .services-container
-  background-color: #010a1a
   color: #f7f7f7
   height: 90vh
   .services-layout
     display: flex
     flex-direction: row
     flex-wrap: wrap
+
+@media (min-width: 47rem)
+  .services-container
+    height: 180vh
+    margin: 0 5vw
+    .services-layout
+      justify-content: center
+
+@media (min-width: 62rem)
+  .services-container
+    height: 270vh
+    margin: 0 5vw
+    .services-layout
+      justify-content: center

@@ -4,7 +4,7 @@ const Copyright = () => {
   return (
     <div className='copyright-container'>
       <div className='copyright-layout'>
-        <p>© 2023 Cormetal S.A. | All rights reserved.</p>
+        <p className='copyright-paragraph'>© 2023 Cormetal S.A. | All rights reserved.</p>
       </div>
     </div>
   )
